@@ -31,22 +31,8 @@ Duplicates selector on purpose, to compare with solutions later
 .header {
   display: flex;
   padding: 10px;
-}
-
-.left-links,
-.right-links {
-  display: flex;
   align-items: center;
-  flex-grow: 1;
-}
-
-.left-links {
-  justify-content: flex-start;
-}
-
-.right-links {
-  justify-content: flex-end;
-
+  justify-content: space-between;
 }
 
 ul {
@@ -54,9 +40,10 @@ ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  gap: 8px;
 }
 
-.logo {
-  justify-content: center;
-  align-items: center;
-}
+/* 
+why did the solution is so simple hahaha 
+need to learn more and more :D
+*/
