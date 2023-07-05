@@ -46,3 +46,22 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* duplicate selectors on purpose, to compare with solution */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 16px;
+}
+
+.notifications {
+  margin: 10px 0;
+}
