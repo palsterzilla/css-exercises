@@ -67,3 +67,28 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* duplicate selectors on purpose, to compare with solution */
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.modal {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+}
+
+.info {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
