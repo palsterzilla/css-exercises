@@ -53,6 +53,7 @@ ul {
   display: flex;
   align-items: center;
   padding: 8px;
+  gap: 16px;
 }
 
 .flex-end {
@@ -64,4 +65,11 @@ ul {
 
 .notifications {
   margin: 10px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
 }
