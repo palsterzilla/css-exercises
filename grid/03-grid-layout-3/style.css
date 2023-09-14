@@ -89,3 +89,31 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* solution */
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 4fr;
+}
+
+.header {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  text-align: left;
+  grid-column: 1 / 2;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
